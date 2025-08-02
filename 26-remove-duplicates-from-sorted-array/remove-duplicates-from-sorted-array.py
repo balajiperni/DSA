@@ -11,9 +11,6 @@ class Solution(object):
             if num not in seen:
                 seen.add(num)
                 result.append(num)
-
-        # Modify nums in-place
         for i in range(len(result)):
             nums[i] = result[i]
-
         return len(result)
