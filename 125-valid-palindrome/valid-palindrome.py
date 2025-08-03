@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         ch = ""
-        string = ":;,._=+*/-@#$%&!{]}['"" "
+        string = ":;,._=+*/- "
         for char in s:
             if char.lower() not in string and char.isalnum():
                 ch = ch + char.lower()
